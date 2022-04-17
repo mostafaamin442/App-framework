@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="qacart">
+  <listeners>
+	<listener class-name="com.qacart.listeners.TestListeners"></listener>
+  </listeners>
+  <test thread-count="5" name="ios">
+  <parameter name="deviceName" value="iPhone 11"></parameter>
+  <parameter name="platformName" value="ios"></parameter>
+  <parameter name="platformVersion" value="15.0"></parameter>	
+  <classes>
+	<class name="com.qacart.testcases.LoginTest"></class>
+  </classes>
+  </test> 
+</suite>

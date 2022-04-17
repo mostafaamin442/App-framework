@@ -1,0 +1,1 @@
+{"uuid":"0332544a-8afa-441f-ac6d-d2e9fee30c0f","name":"com.qacart.testcases.LoginTest","children":["41da5e95-8b4b-460f-a79b-5d41d469bdea"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1648986222157,"stop":1648986255303}],"afters":[],"links":[],"start":1648986222116,"stop":1648986255452}
